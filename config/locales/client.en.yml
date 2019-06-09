@@ -1,0 +1,5 @@
+en:
+  js:
+    locale_detector:
+      banner: "Your browser says your language is %{language}, but you're on the default language."
+      banner_link: "Do you want to change to %{language}?"

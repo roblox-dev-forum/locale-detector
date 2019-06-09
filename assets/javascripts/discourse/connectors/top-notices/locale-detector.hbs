@@ -1,0 +1,13 @@
+{{#unless hidden}}
+	<div class="row">
+		<div class="alert alert-info">
+			<div class="close" {{action "dismiss"}}>
+				{{d-icon 'times'}}
+			</div>
+			{{i18n "locale_detector.banner" language=language}}
+			{{#link-to "preferences.interface" username}}
+				{{i18n "locale_detector.banner_link" language=language}}
+			{{/link-to}}
+		</div>
+	</div>
+{{/unless}}
