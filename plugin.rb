@@ -1,5 +1,5 @@
-# name: tl2-promotion-message
-# version: 1.0.0
+# name: locale-detector
+# version: 1.0.1
 # authors: boyned/Kampfkarren
 
 after_initialize do
