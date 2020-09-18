@@ -41,3 +41,5 @@ The standard recommended functionality is used to add a custom field type to use
 A rails engine is defined to create new endpoints that can be used by the plugin. Standard functionality is used to route the endpoints to the right methods in the engine. The custom user field type is used and set by these endpoints to determine what language to return and to make sure the user stops seeing the banner after changing their locale or dismissing the banner.
 
 To find out what locale to suggest to the user, the endpoint compares the user's browser's locale as known to the server with the list of officially supported locales, and picks the matching option from that list if it exists.
+
+#### Copyright 2020 Roblox Corporation
